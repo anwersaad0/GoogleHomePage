@@ -6,18 +6,35 @@
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <a id="about">About</a>
-        <a id="store">Store</a>
+        <div id="header" class="top">
+            <a id="about">About</a>
+            <a id="store">Store</a>
+            <input type="submit" value="Sign in" id="signin" class="topright">
+            <a id="apps" class="topright"><img src="outline_apps_black_24dp.png"></a>
+            <a id="images" class="topright">Images</a>
+            <a id="gmail" class="topright">Gmail</a>
+        </div>
         <img src="googlelogo.png" alt="Google logo" class="center">
-        <input type="text" id="searchbar">
+        <div id="searcharea">
+            <div id="image1">
+                <a id="searchicon"><img src="outline_search_black_24dp.png"></a>
+                <a id="micicon"><img src="outline_mic_black_24dp.png"></a>
+            </div>
+            <input type="text" id="searchbar">
+        </div>
         <div class="buttons">
             <center>
                 <input type="submit" value="Google Search" id="search" class="btn">
                 <input type="submit" value="I'm Feeling Lucky" id="lucky" class = "btn">
             </center>
         </div>
-        <div class="fbar">
-            
+        <div id="fbar" class="bottom">
+            <a id="advertising" class="fbartext leftside">Advertising</a>
+            <a id="business" class="fbartext leftside">Business</a>
+            <a id="howsearchworks" class="fbartext leftside">How Search Works</a>
+            <a id="settings" class="fbartext rightside">Settings</a>
+            <a id="terms" class="fbartext rightside">Terms</a>
+            <a id="privacy" class="fbartext rightside">Privacy</a>
         </div>
     </body>
 
